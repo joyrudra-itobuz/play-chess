@@ -32,3 +32,38 @@
 .black {
   background-color: #b58863;
 }
+
+.board-wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.board-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ranks-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+.files-wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+.rank-label,
+.file-label {
+  color: #666;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.square.selected {
+  background-color: rgba(255, 255, 0, 0.5);
+}
